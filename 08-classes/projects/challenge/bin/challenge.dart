@@ -31,16 +31,18 @@ class Rectangle {
   set width(double value) {
     if (value < 0) {
       print('width must be positive!');
+    } else {
+      _width = value;
     }
-    _width = value;
   }
 
   double get height => _height;
   set height(double value) {
     if (value < 0) {
       print('height must be positive!');
+    } else {
+      _height = value;
     }
-    _height = value;
   }
 
   double get area => _width * _height;
