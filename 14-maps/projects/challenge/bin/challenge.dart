@@ -12,8 +12,8 @@ void main() {
 /// Maps Exercise
 ///
 /// 1. Create a map with the following keys: `name`, `profession`, `country`
-///    and `city`. For the values, add your own information.
-/// 2. You suddenly decide to move to Toronto, Canada. Programmatically update
+///    and `city`. For the values, add your information.
+/// 2. You decide to move to Toronto, Canada. Programmatically update
 ///    the values for `country` and `city`.
 /// 3. Iterate over the map and print all the values.
 void mapsExercise() {
