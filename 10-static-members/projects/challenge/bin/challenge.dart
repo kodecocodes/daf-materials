@@ -10,7 +10,7 @@ void main() {
 /// Create a `Sphere` class with a `const` constructor that takes a
 /// `radius` as a named parameter. Add getters for the volume and
 /// surface area but none for the radius. Don't use the `dart:math` package
-/// but store your own version of `pi` as a `static` constant. Use your class
+/// but store your version of `pi` as a `static` constant. Use your class
 /// to find the volume and surface area of a sphere with a radius of 12.
 void challenge1() {
   const sphere = Sphere(radius: 12);
