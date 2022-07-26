@@ -6,7 +6,8 @@ import 'squares.dart';
 void main() {
   whatsAnIterable();
   operationsOnIterables();
-  creatingIterablesFromScratch();
+  creatingIterablesUsingGenerators();
+  creatingIterablesUsingIterators();
 }
 
 void whatsAnIterable() {
@@ -41,7 +42,20 @@ void operationsOnIterables() {
   print(numberElements);
 }
 
-void creatingIterablesFromScratch() {
+void creatingIterablesUsingGenerators() {
+  final squares = hundredSquares();
+  for (int square in squares) {
+    print(square);
+  }
+}
+
+Iterable<int> hundredSquares() sync* {
+  for (int i = 1; i <= 100; i++) {
+    yield i * i;
+  }
+}
+
+void creatingIterablesUsingIterators() {
   final squares = HundredSquares();
   for (int square in squares) {
     print(square);
