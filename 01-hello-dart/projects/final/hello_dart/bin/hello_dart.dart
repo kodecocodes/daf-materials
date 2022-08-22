@@ -2,5 +2,5 @@
 // For full license & permission details, see LICENSE.
 
 void main() {
-  print('Hello, Dart project!');
+  print('Hello, Dart!');
 }
