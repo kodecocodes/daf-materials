@@ -8,4 +8,4 @@ Create a new project in VS Code by yourself and then run it.
 
 ### Challenge 2
 
-Open the final project in the supplemental materials. Run **hello.dart** and also **hello_dart_project**.
+Open the final project in the supplemental materials. Run **hello.dart** and also **hello_dart/bin/hello_dart.dart**.
