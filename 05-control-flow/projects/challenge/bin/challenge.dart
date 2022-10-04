@@ -55,7 +55,7 @@ void main() {
   const answer = (isTeenager) ? 'Teenager' : 'Not a teenager';
   print(answer);
 
-  /// Challenge 1: Find the error
+  /// Challenge 1: Find the Error
   ///
   /// What's wrong with the following code?
   ///
@@ -82,7 +82,7 @@ void main() {
   final fullName = firstName + ' ' + lastName;
   print(fullName);
 
-  /// Challenge 2: Boolean challenge
+  /// Challenge 2: Boolean Challenge
   ///
   /// In each of the following statements, what is the value of the
   /// Boolean expression?

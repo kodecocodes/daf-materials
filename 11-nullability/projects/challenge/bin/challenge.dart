@@ -9,7 +9,7 @@ void main() {
   challenge1();
 }
 
-/// Null overview: Exercise 1
+/// Null Overview: Exercise 1
 ///
 /// Create a `String?` variable called `profession`, but don't give it a value.
 /// Then you'll have `profession` `null`. Get it? Professional? :]
@@ -18,7 +18,7 @@ void nullOverviewExercise1() {
   print(profession);
 }
 
-/// Null overview: Exercise 2
+/// Null Overview: Exercise 2
 ///
 /// Give `profession` a value of "basketball player".
 void nullOverviewExercise2() {
@@ -27,7 +27,7 @@ void nullOverviewExercise2() {
   print(profession);
 }
 
-/// Null overview: Exercise 3
+/// Null Overview: Exercise 3
 ///
 /// Write the following line and then hover your cursor over the variable
 /// name. What type does Dart infer `iLove` to be? `String` or `String?`?
@@ -41,7 +41,7 @@ void nullOverviewExercise3() {
   // `iLove` is of type String (non-nullable).
 }
 
-/// Challenge 1: Naming customs
+/// Challenge 1: Naming Customs
 ///
 /// People around the world have different customs for giving names to
 /// children. It would be difficult to create a data class to accurately

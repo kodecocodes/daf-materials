@@ -25,7 +25,7 @@ void main() {
   // result is a `double`. Division can result in non-integer answers, so
   // making the result an `int` could cause a loss of precision.
 
-  /// Challenge 1: Teacher's grading
+  /// Challenge 1: Teacher's Grading
   ///
   /// You're a teacher and in your class attendance is worth 20% of the grade,
   /// the homework is worth 30% and the exam is worth 50%. Your student got 90
@@ -39,7 +39,7 @@ void main() {
   final integerGrade = rawGrade.toInt();
   print(integerGrade);
 
-  /// Challenge 2: What type?
+  /// Challenge 2: What Type?
   ///
   /// What is the type of `value`?
   ///

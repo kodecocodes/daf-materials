@@ -57,6 +57,8 @@ Map<String, int> characterFrequencyMap(String text) {
   return characterFrequencyMap;
 }
 
+/// Challenge 2: To JSON and Back
+///
 /// Create an object from the following class:
 ///
 /// ```dart

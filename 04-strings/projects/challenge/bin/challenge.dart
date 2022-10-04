@@ -33,7 +33,7 @@ void main() {
   const myDetails = 'Hello, my name is $fullName.';
   print(myDetails);
 
-  /// Challenge 1: Same same, but different
+  /// Challenge 1: Same Same, but Different
   ///
   /// This string has two flags that look the same. But they aren't! One of
   /// them is the flag of Chad and the other is the flag of Romania.
@@ -55,7 +55,7 @@ void main() {
   // 127481 is T (127465 is D) so the first flag is Chad.
   // 127479 is R (127476 is O) so the second flag is Romania.
 
-  /// Challenge 2: How many?
+  /// Challenge 2: How Many?
   ///
   /// Given the following string:
   ///
@@ -77,7 +77,7 @@ void main() {
   // See pubspec.yaml for the characters package dependency.
   // See the top of this file for the characters package import.
 
-  /// Challenge 3: Find the error
+  /// Challenge 3: Find the Error
   ///
   /// What is wrong with the following code?
   ///
@@ -91,7 +91,7 @@ void main() {
   print(name);
   // `const` variables can't be changed, so you need to use `var`.
 
-  /// Challenge 4: In summary
+  /// Challenge 4: In Summary
   ///
   /// What is the value of the constant named `summary`?
   ///
