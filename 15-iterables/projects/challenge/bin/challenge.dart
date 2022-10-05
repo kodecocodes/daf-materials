@@ -74,12 +74,12 @@ void challenge2() {
   }
 }
 
-class Fibonacci extends Iterable {
+class Fibonacci extends Iterable<int> {
   const Fibonacci([this.n]);
   final int? n;
 
   @override
-  Iterator get iterator => FibonacciIterator(n);
+  Iterator<int> get iterator => FibonacciIterator(n);
 }
 
 class FibonacciIterator implements Iterator<int> {

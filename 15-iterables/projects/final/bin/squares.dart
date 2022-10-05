@@ -1,6 +1,6 @@
-class HundredSquares extends Iterable {
+class HundredSquares extends Iterable<int> {
   @override
-  Iterator get iterator => SquaredIterator();
+  Iterator<int> get iterator => SquaredIterator();
 }
 
 class SquaredIterator implements Iterator<int> {
