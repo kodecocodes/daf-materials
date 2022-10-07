@@ -9,4 +9,4 @@ dev_dependencies:
   lints: ^2.0.0
 
 dependencies:
-  characters: ^1.2.0
+  characters: ^1.2.1
