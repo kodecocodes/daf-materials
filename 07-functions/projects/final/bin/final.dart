@@ -75,6 +75,8 @@ void namingParameters() {
 
   print(withinTolerance(9, min: 7, max: 11));
   print(withinTolerance(9, max: 11, min: 7));
+  print(withinTolerance(min: 7, max: 11, 9));
+  print(withinTolerance(min: 7, 9, max: 11));
   print(withinTolerance(5));
   print(withinTolerance(15));
   print(withinTolerance(5, min: 7));
