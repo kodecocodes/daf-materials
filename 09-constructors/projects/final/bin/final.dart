@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Razeware LLC
 // For full license & permission details, see LICENSE.
 
-import 'user.dart';
+import 'package:final_project/user.dart';
 
 void main() {
   defaultConstructor();
