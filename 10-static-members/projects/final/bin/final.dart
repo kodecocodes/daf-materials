@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Razeware LLC
 // For full license & permission details, see LICENSE.
 
-import 'math.dart' as math;
+import 'package:final_project/math.dart' as math;
 
 void main() {
   introduction();
