@@ -90,8 +90,8 @@ void operationsOnMap() {
   print(inventory.containsKey('pies'));
   print(inventory.containsValue(42));
 
-  for (var item in inventory.keys) {
-    print(inventory[item]);
+  for (var key in inventory.keys) {
+    print(inventory[key]);
   }
 
   for (final entry in inventory.entries) {
