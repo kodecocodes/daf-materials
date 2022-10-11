@@ -99,6 +99,8 @@ void listProperties() {
   const drinks = ['water', 'milk', 'juice', 'soda'];
   print(drinks.first);
   print(drinks.last);
+  print(drinks[0]);
+  print(drinks[drinks.length - 1]);
   print(drinks.isEmpty);
   print(drinks.isNotEmpty);
   print(drinks.length == 0);
